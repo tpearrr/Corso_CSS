@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stile dei link</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            display: inline;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: brown;
+            background-color: rgb(58, 20, 20);
+        }
+
+        a:link {
+            color: chartreuse;
+        }
+
+        a:visited {
+            color: rgb(144, 116, 65);
+            background-color: rgb(138, 69, 69);
+        }
+
+        a:hover {
+            color: red;
+            background-color: violet;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        a:focus {
+            outline: none;
+            color: indigo;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<p><a href="#" target="_blank"> Questo è un link</a></p>-->
+    <ul>
+        <li><a href="#" target="_blank">Home</a></li>
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#" target="_blank">Contatti</a></li>
+</body>
