@@ -1,0 +1,23 @@
+body{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 30px;
+    background-color: #d0cfcf;
+}
+.container{
+    column-count: 3;
+    /* column-width: 200px; */
+    column-gap: 20px;
+    column-rule: 2px dashed rgb(123, 120, 120);
+}
+
+.ads{
+    background-color: wheat;
+    color: rgb(13, 116, 116);
+    column-span: all;
+    margin: 20px 0;
+    height: 100px;
+    text-align: center;
+    
+}
