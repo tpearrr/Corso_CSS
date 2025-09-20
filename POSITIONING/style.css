@@ -1,0 +1,28 @@
+body{
+    padding: 50px;
+    background-color: lightskyblue;
+    /* position: relative; */
+    height: 2000px;
+}
+.box{
+border-radius: 15px;
+border: solid 2px black;
+background-color: lightsalmon;
+height: 100px;
+margin: 20px;
+width: 300px;
+}
+.uno{
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: relative; */
+    position: sticky;
+    background-color: lightpink;
+    top: 50px;
+    left: 30px;
+    /* width: 500px; */
+}
+.due{
+    background-color: lightgreen;
+    z-index: 1;
+}
